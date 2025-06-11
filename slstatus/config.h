@@ -70,7 +70,6 @@ static const struct arg args[] = {
     { temp,			"    %s°C | ",		"/sys/class/thermal/thermal_zone1/temp"},
 	{ run_command,		"    ",			"free -m | awk '/^Mem:/ {print $3}'"},
     { swap_used,	"%s | ",				NULL},
-	/* { vol_perc,		"  %s ",			""}, */
 	{ wifi_perc,	"    %s%% | ",			"wlp0s20f3"},
     { battery_perc, "   %s%% | ",			"BAT0"},
     { keymap,		"   %s | ",			NULL},
